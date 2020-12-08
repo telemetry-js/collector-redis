@@ -1,0 +1,36 @@
+{
+  "name": "@telemetry-js/collector-redis",
+  "version": "0.0.7",
+  "description": "Collect Redis metrics",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@telemetry-js/match-metric-names": "^0.0.3",
+    "@telemetry-js/metric": "^0.1.2",
+    "ioredis": "~4.2.0",
+    "redis-info": "~3.0.6"
+  },
+  "devDependencies": {
+    "hallmark": "^3.1.0",
+    "proxyquire": "^2.1.0",
+    "standard": "^14.3.4",
+    "tape": "^4.9.1"
+  },
+  "repository": "telemetry-js/collector-redis",
+  "bugs": "https://github.com/telemetry-js/collector-redis/issues",
+  "homepage": "https://github.com/telemetry-js/collector-redis",
+  "keywords": [
+    "metrics",
+    "measurements",
+    "telemetry"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}

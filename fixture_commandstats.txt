@@ -1,0 +1,13 @@
+# Commandstats
+cmdstat_ttl:calls=285,usec=1236,usec_per_call=4.34
+cmdstat_zremrangebyscore:calls=529488,usec=3182542,usec_per_call=6.01
+cmdstat_ping:calls=856881,usec=1244880,usec_per_call=1.45
+cmdstat_select:calls=1,usec=1,usec_per_call=1.0
+cmdstat_get:calls=6432234,usec=25164073,usec_per_call=3.91
+cmdstat_expire:calls=2115444,usec=12262691,usec_per_call=5.8
+cmdstat_zcount:calls=384472,usec=1495376,usec_per_call=3.89
+cmdstat_zrangebyscore:calls=529488,usec=5935031,usec_per_call=11.21
+cmdstat_client:calls=858364,usec=1628182,usec_per_call=1.9
+cmdstat_multi:calls=2762306,usec=3973769,usec_per_call=1.44
+cmdstat_exec:calls=9440334,usec=69829126,usec_per_call=7.4
+cmdstat_set:calls=22082,usec=184627,usec_per_call=8.36
